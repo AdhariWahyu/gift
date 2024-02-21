@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* styles.css */
+/* Tambahkan styling untuk guide di atas form login */
+/* styles.css */
+/* Pindahkan posisi guide ke atas container form login */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* Mengubah orientasi flex ke vertikal */
+  height: 100vh;
+  background: linear-gradient(to right, #3498db, #2c3e50);
+}
+
+.login-guide {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+/* ... (CSS lainnya tetap sama) */
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+  text-align: left;
+  /* Penyesuaian posisi teks label */
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  /* Mengisi lebar button dengan 100% dari parentnya */
+}
+
+button:hover {
+  background-color: #c0392b;
+}

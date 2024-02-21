@@ -1,0 +1,34 @@
+<!-- halamanBaru.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Misteri Kotak</title>
+  </head>
+  <body>
+    <div class="center-text">
+      <h2>TARAAAAA</h2>
+      <p id="pesanText"></p>
+      <button class="popup-trigger" onclick="tampilkanPopup()">Klik lagi yang
+        ini ayyyy</button>
+    </div>
+
+    <div class="popup" id="infoPopup">
+      <p>HOree ayy, kamu dapet pentol,belinya habis ini <br>LANGSUNGGG TAGIH
+        AYYYYY</p>
+      <button onclick="tutupPopup()">CUSS TAGIH</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Ambil pesan dari parameter URL
+        const params = new URLSearchParams(window.location.search);
+        const pesan = params.get('pesan');
+        
+        // Tampilkan pesan di halaman baru
+        document.getElementById('pesanText').innerText = pesan;
+    </script>
+  </body>
+</html>
